@@ -1,26 +1,26 @@
-# Data Structures and Algorithms using Python
+# Machine Learning 
 
-Algorithmic and Computational thinking are the backbone of tech. This repo is specifically for showcasing the implementation of different algorithms and data structures problems using python. 
+This repo has .m code for machine learning projects using popular ML methods; Artificial Neural Networks, Supervised/Unsupervised Learning, and Decision Trees to name a few. 
 
-Python is an getting increasingly popular in the industry. It is predominantly popular for its AI/ML framework, but is gaining popularity in app development frameworks. It is equally capable to be a scripting language and used for OOP.
+The main project that encompassed many models was on Diabetic Retinopathy, a severe eye condition stemming from diabetes.
 
 ## Environment Used
 
-Python is an open source language, which gives a lot of freedom. This implementation was done using IDLE 3.6 64-bit.
+Among the several tools available for AI/ML, these projects used Matlab by Mathworks. 
 
 ## Projects 
 
-Popular data strcutures and algorithms are implemented using OOP methods in python. The repo contains problems and implementations around the following: 
+Following are the projects in this repo: 
 
-* list
-* dictionary
-* graph
-* linked list
-* stacks
-* queues 
+* Diabetic Retinopathy - Used decision trees and ANN to classify pre-processed retinal images either as susceptible to diabetic retinopathy or not
+* Birch Clustering - Introductory project to supervised learning and determinig optimal number of clusters
+* Building Occupancy - Decision tree used to classify whether a space is occupied or not given a set of observations of the space
+* Kidney Disease - Given patient health and personal information, classifying the patient with/without Chronic Kidney Disease (CKD)
+* Benzene Concentration - Using ANN to determine the benzene concentration in the air, given a set of attributes on air quality
+* Capacity Optimization - a genetic algorithm used to take initial and boundary conditions and maximize cargo in a given limited space
 
 ## Reference
 
-Educative.io is an excellent online education platform that has methodical courses to learn data structures using Python 
+This was from a graduate level class at Penn State, taught by Dr. Jeremy Gernand  
 
 
