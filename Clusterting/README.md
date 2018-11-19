@@ -1,23 +1,7 @@
-# Machine Learning 
+# Birch Clustering
 
-This repo has .m code for machine learning projects using popular ML methods; Artificial Neural Networks, Supervised/Unsupervised Learning, and Decision Trees to name a few. 
+Data  visualization  is  a  key  element  in  understanding  data  and  visualization  categorically enhances  better  understanding  and  readability.  A  precursor  to  such  an  attempt  is  classifying datasets, where  the  classifier  is  the  output.  However,  constraints  can  limit  attempts  to  classify data,  which  is  when  clustering  provide  better  visualization.  This  report  outlines  an  attempt  to implement  clustering  algorithm  to  a  given  Birch  Clustering  Dataset. This  dataset  contains  two columns,  which  appear  to  be  random  pointsin  random  locations. Out  of  the  many  clustering algorithms, k-means clustering method was primarily studied. This supervised learning technique partitions  100,000  observations  into  clusters  ranging  from  2  to  30.  The  optimal  number  of clusters was determined by evaluating the mean distance for increments of clusters from 2 to 30 in addition to studying the silhouette value and visual implication post-clustering.The silhouette value ranges from-1 to +1 andobservations within a cluster closer to 1 indicate better clustering distinction. 
 
-The main project that encompassed many models was on Diabetic Retinopathy, a severe eye condition stemming from diabetes.
-
-## Environment Used
-
-Among the several tools available for AI/ML, these projects used Matlab by Mathworks. 
-
-## Projects 
-
-Following are the projects in this repo: 
-
-* Diabetic Retinopathy - Used decision trees and ANN to classify pre-processed retinal images either as susceptible to diabetic retinopathy or not
-* Birch Clustering - Introductory project to supervised learning and determinig optimal number of clusters
-* Building Occupancy - Decision tree used to classify whether a space is occupied or not given a set of observations of the space
-* Kidney Disease - Given patient health and personal information, classifying the patient with/without Chronic Kidney Disease (CKD)
-* Benzene Concentration - Using ANN to determine the benzene concentration in the air, given a set of attributes on air quality
-* Capacity Optimization - a genetic algorithm used to take initial and boundary conditions and maximize cargo in a given limited space
 
 ## Reference
 

@@ -1,1 +1,11 @@
-Machine_Learning
+# Diabetic Retinopathy 
+
+Over 200 million people suffer from type II diabetes and roughly 2% of that set live under poverty and atleast a third of that set have early to critical stages of diabetic retinopathy (DR). Referring to the work done for the proposal of this topic, DR is a chronic eye disease that occurs primarily in patients with high blood sugar. In continuation to the proposed work that outlined the dataset and  the  contribution  from  existing  literature,  this  project focuses  on  the  implementation  of  Random Forest and Support Vector Machine models to accurately predict either the presence or absence of DR. Prior to using these models, the paper outlines the predictor importance and the correlation between the predicators and the outcome, thus making the dataset lean and confined to the predictors  of  high  importance.  The  validity  of  the  model  was  determined  by  generating  a  confusion  matrix  and  computing  the  accuracy.  Furthermore,  this  being  a  medical  problem  the  robustness of the model is not solely dependent on the overall accuracy but is also dependent on the percentage of false positives and false negatives. In-line with this objective, the dataset was evaluated by altering attributes within the RF and SVM models and altering the dataset itself. The results are shown in the form of plots and tables. 
+
+# Objective
+
+To reiterate, the objective is to perform a Random Forest and SVM analyses and penetrate deep into the models’ response when the number of predictors is altered based on importance level. The outcome can be determined by sensitivity, specificity analysis and certainly confusion matrix plot analysis.  Furthermore,  the  high  impact  predictors  will  be  kept  as  is  with  further  alterations  performed with the other predictors to check for accuracy variations. 
+
+# Implementation
+
+There  are  a  total  of  1151 observations  out  of  which  860  observations  in  entirety  at  random  are  selected for training purposes. The training dataset was then subjected to a 5-fold cross-validation and the dataset was then used to generate different Random Forest and Support Vector Machine models.  The remaining 291 observations were used to test the developed model.  To begin with, all  19  predictors  were  used to  build  RF  and  SVM  models  and  subsequently,  predictors  were  selected based on importance and then new RF and SVM models were developed. 

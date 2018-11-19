@@ -1,23 +1,7 @@
-# Machine Learning 
+# Building Occupancy - Random Forest | Decision Trees
 
-This repo has .m code for machine learning projects using popular ML methods; Artificial Neural Networks, Supervised/Unsupervised Learning, and Decision Trees to name a few. 
+In conjunctionto the Classification and Regression Tress analysis, Random Forest (RF) model is the continuationof CART as RF is acollection of several CARTs. The report outlined below used the  ‘Building  Occupancy’ dataset  comprising  of  6  predictors  namely  ‘Data  and  Time’, ‘Temperature’, ‘Humidity’, ‘Light’, ‘Carbon Dioxide’, and ‘Humidity Ratio’. These predictorswere  used  to  determine  the  occupancy  of  the  building  by  either  denoting  ‘1’  to  represent ‘Occupied’ or ‘0’ to represent ‘Not Occupied’. Prior  to  the  analysis,  the first  predictor  was transformed to two new predictors; ‘Time of Day’ and ‘Day of Week’, thuschanging the number of predictors from 6 to 7  in total.This was done using the ‘WEEKDAY’ function in Microsoft excel where the days are numbered from 1 to 7, where 1 is for ‘Sunday’ and 7 is for ‘Saturday’.The modified dataset was then analyzed by firstbuilding a CART model followed by a Random Forest model and the occupancy was predicted for both these models. The occupancy prediction for the Random Forest model was tailored to predict only with the two high impact predicators, which  in  this  case  were ‘Light’ and ‘Temperature’ while keeping the other predictors constant. The  mean  of  each  eliminated  predictor  was  imputed  as  the  constant  value  to  proceed  with  the analysis. Similarly, the occupancy prediction of the CART was done using just one predictor at a time and keeping the other predictors constant. For this model, ‘NaN’ and mean were used as constant  values  for  the  predictors  that  were  not  used  to  predict  the  occupancy.  Using  the  two models separately,scatter plots were generated to see the impact of each predictor and a confusion matrix portrayingthe  deficit was  analyzed  to  validate  the  model  and  report  the  error.  The preliminary analysis includes a correlation coefficient matrix to see the relationship between each predictor and the output. The analysis resulted in conclusions that portraying the most important predictor and a relationship between the day of the week and occupancy. 
 
-The main project that encompassed many models was on Diabetic Retinopathy, a severe eye condition stemming from diabetes.
-
-## Environment Used
-
-Among the several tools available for AI/ML, these projects used Matlab by Mathworks. 
-
-## Projects 
-
-Following are the projects in this repo: 
-
-* Diabetic Retinopathy - Used decision trees and ANN to classify pre-processed retinal images either as susceptible to diabetic retinopathy or not
-* Birch Clustering - Introductory project to supervised learning and determinig optimal number of clusters
-* Building Occupancy - Decision tree used to classify whether a space is occupied or not given a set of observations of the space
-* Kidney Disease - Given patient health and personal information, classifying the patient with/without Chronic Kidney Disease (CKD)
-* Benzene Concentration - Using ANN to determine the benzene concentration in the air, given a set of attributes on air quality
-* Capacity Optimization - a genetic algorithm used to take initial and boundary conditions and maximize cargo in a given limited space
 
 ## Reference
 
